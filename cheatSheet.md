@@ -194,3 +194,33 @@ git push --tags
 ```
 
 ## Clean and undo
+
+Discard all changes in working directory:
+
+```
+git reset --hard <some commit>
+```
+
+Discard local changes in file:
+
+```
+git checkout <some commit> <file>
+```
+
+Delete all untracked files:
+
+```
+git clean -f
+```
+
+Delete all untracked files and directories:
+
+```
+git clean -df
+```
+
+Undo local modifications to all files:
+
+```
+git checkout -- .
+```
