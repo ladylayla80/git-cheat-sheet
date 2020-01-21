@@ -1,2 +1,2 @@
-# github-cheat-sheet
+# git-cheat-sheet
 Basic git commands
