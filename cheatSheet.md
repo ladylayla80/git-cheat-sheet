@@ -25,6 +25,12 @@ or
 git diff
 ```
 
+See changes made to file:
+
+```
+git diff <file>
+```
+
 Add all current changes to commit:
 
 ```
@@ -62,3 +68,129 @@ Get back to last commit:
 ```
 git commit -a -amend
 ```
+
+## Commit history and logs
+
+Show commit history in single lines:
+
+```
+git log --oneline
+```
+
+Show commit history for last N commits:
+
+```
+git log -N
+```
+
+Show commit history for last N commits with diff:
+
+```
+git log -p -N
+```
+
+See who changed and what in a file:
+
+```
+git blame <file>
+```
+
+See changes to file over time:
+
+```
+git log -p <file>
+```
+
+Show remote branches and their mapping to local:
+
+```
+git remote show origin
+```
+
+## Branches
+
+List all local branches:
+
+```
+git branch
+```
+
+List all remote branches:
+
+```
+git branch -a
+```
+
+List all existing branches:
+
+```
+git bran -av
+```
+
+Create local branch and switch to it:
+
+> If you don't want to switch remove -b
+
+```
+git checkout -b <branch name>
+```
+
+Switch to existing branch:
+
+```
+git checkout <branch name>
+```
+
+Rename current branch:
+
+```
+git branch -m <new name>
+```
+
+Delete a local branch:
+
+```
+git branch -d <branch name>
+```
+
+## Merge
+
+To merge branch to origin:
+
+```
+git merge <branch name>
+```
+
+## Tags
+
+Get remote tags:
+
+```
+git pull --tags
+```
+
+Switch to an existing tag:
+
+```
+git checkout <tag name>
+```
+
+List all tags:
+
+```
+git tag
+```
+
+Create new tag
+
+```
+git tag -a <tag name> -m "COMMENT"
+```
+
+Push all tags to remote repository:
+
+```
+git push --tags
+```
+
+## Clean and undo
