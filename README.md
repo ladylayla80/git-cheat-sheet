@@ -1,2 +1,2 @@
-# git-cheat-sheet
-Basic git commands
+# Git cheatsheet
+Basic git commands can be found in cheatSheet.md
