@@ -124,7 +124,7 @@ git branch -a
 List all existing branches:
 
 ```
-git bran -av
+git branch -av
 ```
 
 Create local branch and switch to it:
